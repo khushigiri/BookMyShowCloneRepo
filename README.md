@@ -30,13 +30,14 @@
 
 ## TailWind
 
-npm install -D tailwindcss
+npm install -D tailwindcss postcss autofixer
 npx tailwindcss init
 
 ## React Slick
 
 npm install react-slick
 npm install slick-carousel
+npm run start
 
 ## Axios
 
