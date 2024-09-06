@@ -24,4 +24,32 @@
     >> Poster           Poster.Component.jsx
     >> PosterSlider     PosterSliderComponent.jsx
 
-## npx create-react-app .
+## npx create-react-app project_name
+
+## cd project_name
+
+## TailWind
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+## React Slick
+
+npm install react-slick
+npm install slick-carousel
+
+## Axios
+
+npm install axios
+
+## Headless UI
+
+npm install @headlessui/react
+
+## React icons
+
+npm install react-icons
+
+## Router-Dom
+
+npm i react-router-dom
