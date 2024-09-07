@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import HeroSlider from "react-slick";
+import { NextArrow, PrevArrow } from "./Arrows.Component";
 
 const HeroCarousel = () => {
   const [images, setImages] = useState([
@@ -40,22 +41,32 @@ const HeroCarousel = () => {
   ]);
 
   const settingsLG = {
+    dots: true,
     arrows: true,
     slidesToShow: 1,
     infinite: true,
     speed: 500,
-    slidesToScroll: 1,
-    nextArrow:,
-    pevArrow:,
+    slideToScroll: 1,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
   const settings = {
+    dots: true,
     arrows: true,
     slidesToShow: 1,
     infinite: true,
     speed: 500,
-    slidesToScroll: 1,
-    nextArrow:,
-    pevArrow:,
+    slideToScroll: 1,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
   };
 
   return (
@@ -65,9 +76,7 @@ const HeroCarousel = () => {
           {images.map((image) => {
             <div className="w-full h-56 md:h-80 py-3">
               <img
-                src={
-                  "https://image.tmdb.org/t/p/original$(images.backdrop_path)"
-                }
+                src={`https://image.tmdb.org/t/p/original${images.backdrop_path}`}
                 alt="Hero Banner"
                 className="w-full h-full rounded-md object-cover"
               />
@@ -80,9 +89,7 @@ const HeroCarousel = () => {
           {images.map((image) => {
             <div className="w-full h-96 px-2 py-3">
               <img
-                src={
-                  "https://image.tmdb.org/t/p/original$(images.backdrop_path)"
-                }
+                src={`https://image.tmdb.org/t/p/original${images.backdrop_path}`}
                 alt="Hero Banner"
                 className="w-full h-full rounded-md object-cover"
               />
