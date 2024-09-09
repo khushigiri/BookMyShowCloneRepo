@@ -41,8 +41,8 @@ const PosterSlider = (props) => {
         </p>
       </div>
       <Slider {...settings}>
-        {posters.map((each) => (
-          <Poster {...each} isDark={isDark} />
+        {posters.map((each, index) => (
+          <Poster {...each} isDark={isDark} key={index} />
         ))}
       </Slider>
     </>

@@ -55,4 +55,4 @@ npm install react-icons
 
 npm i react-router-dom
 
-## https://api.themoviedb.org/3/movie/550?api_key=43302977bd904701d3415ab9e3d9fd9f
+## https://api.themoviedb.org/3/movie/550?api_key=05d42fd383aaef9679971cf9e299d14d
