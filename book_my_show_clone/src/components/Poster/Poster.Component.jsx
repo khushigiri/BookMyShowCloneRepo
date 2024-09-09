@@ -8,7 +8,7 @@ const Poster = (props) => {
       <div className="flex flex-xol items-start gap-2 px-1 md:px-3">
         <div className="h-40 md:h-80">
           <img
-            src={"https://image.tmdb.org/t/p/original${props.poster_path}"}
+            src={`https://image.tmdb.org/t/p/original${props.poster_path}`}
             alt="Poster"
             className="w-full h-full rounded-md"
           />
