@@ -1,6 +1,6 @@
 import React from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 
 const PaymentModal = ({ setIsOpen, isOpen, price }) => {
   const closeModal = () => {
@@ -16,7 +16,7 @@ const PaymentModal = ({ setIsOpen, isOpen, price }) => {
       description: "Movie purchase or rent",
       handler: () => {
         setIsOpen(false);
-        alert("Payment Successful");
+        alert("Payment Succesful");
       },
       theme: { color: "#c4242d" },
     };

@@ -1,4 +1,3 @@
-// rafce
 import React from "react";
 import Navbar from "../components/Navbar/Navbar.component";
 
@@ -9,7 +8,6 @@ const DefaultLayoutHoc =
       <div>
         <Navbar />
         <Component {...props} />
-        <div>Footer</div>
       </div>
     );
   };
